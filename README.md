@@ -12,3 +12,21 @@
 ---
 ### Quando usar cada uma?
 #### A imagem **SVG** é usada para coisas mais simples, tendo em vista que não é possível manter os detalhes de uma imagem complexa, como `ícones` e `logotipos`. Fora isso, utiliza-se **JPG** ou **PNG**, `dependendo da necessidade`.
+---
+## Ajuste 
+### Ajustar de acordo com o dispositivo, na escala 1:1:
+```
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+---
+## Variáveis CSS
+### Declaração: 
+```
+:root {
+    --nome-variavel: valor
+}
+```
+### Chamada:
+```
+    var (--nome-variavel)
+```
