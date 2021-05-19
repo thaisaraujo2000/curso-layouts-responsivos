@@ -30,3 +30,11 @@
 ```
     var (--nome-variavel)
 ```
+---
+## Ajustando layout
+```
+@media print and () //impressão
+```
+```
+@media screen and () //tela
+```
